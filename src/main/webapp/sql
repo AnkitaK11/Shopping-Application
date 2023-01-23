@@ -1,0 +1,16 @@
+
+Create table admin
+(
+reg_no number(5) unique,
+admin_name varchar2(20) primary key,
+password varchar2(20)
+);
+
+CREATE TABLE ShopUser
+(
+    reg_id number(5) unique,
+    name VARCHAR2(20),
+    phoneNumber VARCHAR2(20),
+    user_name varchar2(20),
+    password varchar2(20)
+);
